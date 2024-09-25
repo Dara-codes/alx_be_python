@@ -1,5 +1,5 @@
-num1 = int(input("Enter the first number:").strip())
-num2 = int(input("Enter the second number:").strip())
+num1 = float(input("Enter the first number:").strip())
+num2 = float(input("Enter the second number:").strip())
 
 operations = input("Choose the operation (+, -, *, /):")
 
