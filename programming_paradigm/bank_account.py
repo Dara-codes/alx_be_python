@@ -15,7 +15,7 @@ class BankAccount:
                     # print(f"Withdrew: $ {self.account_balance}")
                     return True
                 else:
-                    print("Insufficient funds")
+                    # print("Insufficient funds")
                     return False
             else:
                 print("no negative input")
