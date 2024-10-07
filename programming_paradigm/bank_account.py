@@ -5,7 +5,6 @@ class BankAccount:
     def deposit(self, amount):
             if amount > 0:
                 self.account_balance += amount
-                print(f"new balance {self.account_balance}")
             else:
                 print(" doesnt accept negative digits")
         
